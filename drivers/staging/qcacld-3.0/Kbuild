@@ -299,7 +299,6 @@ BUILD_DEBUG_VERSION := 0
 #Enable this flag to build driver in diag version
 BUILD_DIAG_VERSION := 1
 
-#Do we panic on bug?  default is to warn
 PANIC_ON_BUG := 0
 
 #Enable OL debug and wmi unified functions
