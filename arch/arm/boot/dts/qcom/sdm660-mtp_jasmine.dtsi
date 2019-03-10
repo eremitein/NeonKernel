@@ -125,6 +125,7 @@
 	qcom,mdss-dsi-bl-min-level = <1>;
 	qcom,mdss-dsi-bl-max-level = <4095>;
 	qcom,panel-supply-entries = <&dsi_panel_pwr_supply>;
+  qcom,mdss-brightness-max-level = <255>;
 };
 
 &dsi_nt36672_tianma_fhd_video {
@@ -132,6 +133,7 @@
 	qcom,mdss-dsi-bl-min-level = <1>;
 	qcom,mdss-dsi-bl-max-level = <4095>;
 	qcom,panel-supply-entries = <&dsi_panel_pwr_supply>;
+  qcom,mdss-brightness-max-level = <255>;
 };
 
 &dsi_nt36672_jdi_fhd_video {
@@ -139,6 +141,7 @@
 	qcom,mdss-dsi-bl-min-level = <1>;
 	qcom,mdss-dsi-bl-max-level = <4095>;
 	qcom,panel-supply-entries = <&dsi_panel_pwr_supply>;
+  qcom,mdss-brightness-max-level = <255>;
 };
 
 &dsi_nt36672_huaxing_fhd_video {
@@ -146,6 +149,7 @@
 	qcom,mdss-dsi-bl-min-level = <1>;
 	qcom,mdss-dsi-bl-max-level = <4095>;
 	qcom,panel-supply-entries = <&dsi_panel_pwr_supply>;
+  qcom,mdss-brightness-max-level = <255>;
 };
 
 &dsi_td4310_shenchao_fhd_video {
@@ -153,7 +157,16 @@
 	qcom,mdss-dsi-bl-min-level = <1>;
 	qcom,mdss-dsi-bl-max-level = <4095>;
 	qcom,panel-supply-entries = <&dsi_panel_pwr_supply>;
+  qcom,mdss-brightness-max-level = <255>;
 };
+
+&dsi_nt36672a_tianma_fhdplus_video {
+ 	qcom,mdss-dsi-bl-pmic-control-type = "bl_ctrl_wled";
+ 	qcom,mdss-dsi-bl-min-level = <1>;
+ 	qcom,mdss-dsi-bl-max-level = <4095>;
+ 	qcom,panel-supply-entries = <&dsi_panel_pwr_supply>;
+  qcom,mdss-brightness-max-level = <255>;
+ };
 
 &dsi_dual_nt35597_truly_video {
 	qcom,mdss-dsi-bl-pmic-control-type = "bl_ctrl_wled";
