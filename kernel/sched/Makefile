@@ -1,3 +1,4 @@
+KBUILD_CFLAGS += -Wno-implicit-function-declaration
 ifdef CONFIG_FUNCTION_TRACER
 CFLAGS_REMOVE_clock.o = $(CC_FLAGS_FTRACE)
 endif
